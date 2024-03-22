@@ -179,7 +179,18 @@ li {
   display: flex;
   gap: 24px;
 }
-
+.icon-item {
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  width: 264px;
+  height: 112px;
+}
+.icon-item-content {
+  width: 64px;
+  height: 64px;
+  display: block;
+  margin: 24px;
+}
 .name-link {
   font-weight: 500;
   font-size: 20px;
@@ -210,6 +221,8 @@ li {
 .team-item {
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 .team-link {
   font-weight: 700;
@@ -244,9 +257,57 @@ li {
   letter-spacing: 0.02em;
   color: #434455;
 }
+.icon {
+  display: flex;
+  gap: 24px;
+  padding: 16px;
+}
+.team-icon {
+  fill: #f4f4fd;
+}
+.team-icon-link {
+  background-color: #4d5ae5;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.team-icon-link:hover {
+  background-color: #31d0aa;
+}
 
 /*------portfolio----*/
-
+.portfolio-shadow {
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+}
+.portfolio-item:hover .seller-cover-text {
+  transform: translateY(0);
+}
+.seller-cover-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+  position: absolute;
+  top: 0;
+  background-color: #4d5ae5;
+  height: 100%;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 40px;
+  padding-bottom: 164px;
+  display: flex;
+  align-items: center;
+  transform: translateY(100%);
+  transition: transform 300ms ease;
+}
+.seller-cover-wrap {
+  position: relative;
+  overflow: hidden;
+}
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
@@ -274,6 +335,7 @@ li {
 .portfolio-item {
   width: calc((100% - 48px) / 3);
   border-radius: 0px 0px 4px 4px;
+  position: relative;
 }
 
 .soupis-link {
@@ -315,4 +377,14 @@ li {
 .logo-style {
   display: inline-block;
   margin-bottom: 16px;
+}
+.social-media {
+  weight: 500;
+  size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+}
+.social-media-link {
+  display: flex;
 }
