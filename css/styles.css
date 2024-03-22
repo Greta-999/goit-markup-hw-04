@@ -404,7 +404,7 @@ li {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   align-items: baseline;
   margin-right: 120px;
-  ont-weight: 500;
+  margin-bottom: 16px;
 }
 
 .footer-icon :hover,
