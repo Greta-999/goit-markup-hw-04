@@ -411,3 +411,7 @@ li {
 .footer-icon :focus {
   background-color: #31d0aa;
 }
+.social-media-link {
+  display: flex;
+  align-items: baseline;
+}
