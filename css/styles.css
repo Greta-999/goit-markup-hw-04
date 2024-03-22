@@ -272,6 +272,7 @@ li {
   display: flex;
   gap: 24px;
   padding: 16px;
+  display: flex;
 }
 .team-icon {
   fill: #f4f4fd;
@@ -285,8 +286,9 @@ li {
   align-items: center;
   justify-content: center;
 }
-.team-icon-link:hover {
-  background-color: #31d0aa;
+.team-icon-link:hover,
+.team-icon-link:focus {
+  background-color: #404bbf;
 }
 
 /*------portfolio----*/
