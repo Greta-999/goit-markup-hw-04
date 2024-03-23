@@ -413,6 +413,7 @@ li {
 }
 .titele-footer {
   margin-right: 120px;
+  margin-left: 156px;
 }
 .social-media {
   margin-bottom: 16px;
@@ -422,4 +423,5 @@ li {
 }
 .container-footer {
   display: flex;
+  align-items: baseline;
 }
