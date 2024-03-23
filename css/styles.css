@@ -406,18 +406,22 @@ li {
   margin-right: 120px;
   margin-bottom: 16px;
   font-weight: 500;
-  
-
-.icon {
+}
+.icon-footer {
   gap: 16px;
   display: flex;
 }
-.footer-icon :hover {
-background-color: #31d0aa;
-}
-.footer-icon :focus {
+
+.footer-bk :hover,
+.footer-bk :focus {
   background-color: #31d0aa;
 }
 .titele-footer {
   margin-right: 120px;
+}
+.social-media {
+  margin-bottom: 16px;
+}
+.footer-icon {
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
