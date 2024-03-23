@@ -394,18 +394,13 @@ li {
   display: inline-block;
   margin-bottom: 16px;
 }
-.social-media-link {
-  weight: 500;
-  size: 16px;
+.social-media {
+  font-weight: 500;
+  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
-
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  align-items: baseline;
-  margin-right: 120px;
   margin-bottom: 16px;
-  font-weight: 500;
 }
 .icon-footer {
   gap: 16px;
@@ -422,7 +417,7 @@ li {
 .social-media {
   margin-bottom: 16px;
 }
-.footer-icon {
+.footer-bk {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .container-footer {
