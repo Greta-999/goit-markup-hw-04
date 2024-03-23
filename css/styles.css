@@ -277,6 +277,9 @@ li {
   display: flex;
   justify-content: center;
 }
+.team-contakt {
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 .team-icon {
   fill: #f4f4fd;
 }
@@ -415,9 +418,7 @@ li {
   margin-right: 120px;
   margin-left: 156px;
 }
-.social-media {
-  margin-bottom: 16px;
-}
+
 .footer-bk {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
