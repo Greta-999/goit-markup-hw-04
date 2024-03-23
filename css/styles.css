@@ -394,7 +394,7 @@ li {
   display: inline-block;
   margin-bottom: 16px;
 }
-.social-media {
+.social-media-link {
   weight: 500;
   size: 16px;
   line-height: 1.5;
@@ -405,9 +405,19 @@ li {
   align-items: baseline;
   margin-right: 120px;
   margin-bottom: 16px;
-}
+  font-weight: 500;
+  
 
-.footer-icon :hover,
+.icon {
+  gap: 16px;
+  display: flex;
+}
+.footer-icon :hover {
+background-color: #31d0aa;
+}
 .footer-icon :focus {
   background-color: #31d0aa;
+}
+.titele-footer {
+  margin-right: 120px;
 }
