@@ -400,9 +400,7 @@ li {
   display: inline-block;
   margin-bottom: 16px;
 }
-.social-media-link {
-  margin-left: 120px;
-}
+
 .social-media {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -423,6 +421,7 @@ li {
 }
 .titele-footer {
   margin-left: 156px;
+  margin-right: 120px;
 }
 
 .container-footer {
