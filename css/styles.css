@@ -413,16 +413,26 @@ li {
   display: flex;
 }
 
-.footer-bk :hover,
+.footer-bk :hover {
+  background-color: #31d0aa;
+}
+
 .footer-bk :focus {
   background-color: #31d0aa;
 }
 .titele-footer {
-  margin-right: 120px;
   margin-left: 156px;
+  margin-right: 120px;
 }
 
 .container-footer {
   display: flex;
   align-items: baseline;
+}
+.footer-bk {
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-media-link {
+  margin-right: 120px;
 }
