@@ -277,12 +277,11 @@ li {
   display: flex;
   justify-content: center;
 }
-.team-contakt {
-}
+
 .team-icon {
   fill: #f4f4fd;
 }
-.team-icon-link {
+.team-contakt {
   background-color: #4d5ae5;
   width: 40px;
   height: 40px;
@@ -290,12 +289,14 @@ li {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.team-icon-link {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.team-icon-link:hover {
+.team-contakt:hover {
   background-color: #404bbf;
 }
-.team-icon-link:focus {
+.team-contakt:focus {
   background-color: #404bbf;
 }
 
@@ -421,9 +422,6 @@ li {
   margin-left: 156px;
 }
 
-.footer-bk {
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 .container-footer {
   display: flex;
   align-items: baseline;
