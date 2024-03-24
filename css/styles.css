@@ -274,6 +274,7 @@ li {
   gap: 24px;
   padding: 16px;
   display: flex;
+  justify-content: center;
 }
 
 .team-icon {
@@ -400,6 +401,7 @@ li {
   margin-bottom: 16px;
 }
 .social-media-link {
+  margin-left: 120px;
 }
 .social-media {
   font-family: "Roboto", sans-serif;
@@ -421,7 +423,6 @@ li {
 }
 .titele-footer {
   margin-left: 156px;
-  margin-right: 120px;
 }
 
 .container-footer {
